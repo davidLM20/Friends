@@ -74,8 +74,8 @@ function showDedicationText() { //seguidores
     \n\nAunque estés un poco deschabetada a veces 😜, admiro muchísimo todo lo que has logrado. A tu edad has conseguido cosas que muchos de nosotros ni se nos cruzaba por la cabeza (acabe la u a los 26 xd). Y lo mejor es que muchas veces no te das cuenta de lo capaz que eres.
     \n\nSé que ahora andas en ese punto raro de la vida donde no sabes qué hacer, todo se siente confuso y el futuro parece una pregunta gigante sin respuesta. Y sí, eso pesa… cansa… pone triste.
     \n\nPero no estas sola
-    \n\nNo tienes que tener la vida resuelta mañana. No tienes que saber exactamente qué hacer ya. Está bien sentirse perdida a veces, eso no borra lo inteligente, fuerte y valiente que eres.
-    \n\nY aunque no pueda arreglar lo que estás viviendo, sí puedo hacer algo mejor: estar. Escucharte. Acompañarte. Aguantar tus crisis existenciales. Mandarte memes cuando estés bajoneada. O simplemente quedarme en silencio contigo si eso es lo que necesitas.
+    \n\nNo tienes que tener la vida resuelta mañana. No tienes que saber exactamente qué hacer ya.
+    \n\nAunque estés un poco deschabetada a veces 😜, admiro un montón todo lo que has logrado. En serio, has conseguido cosas increíbles y a veces ni tú misma te das cuenta de lo capaz que eres.
     \n\nPara eso estamos los amigos, ¿no? Para apoyarnos cuando uno siente que todo se le viene encima.`
     ;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
@@ -108,7 +108,7 @@ function showSignature() {
     dedication.appendChild(signature);
   }
   let firma = getURLParam('firma');
-  signature.textContent = firma ? decodeURIComponent(firma) : "Con amor, Zero";
+  signature.textContent = firma ? decodeURIComponent(firma) : "Yisus";
   signature.classList.add('visible');
 }
 
@@ -149,7 +149,7 @@ function startFloatingObjects() {
 }
 
 // Cuenta regresiva o fecha especial
-function showCountdown() {
+/*function showCountdown() {
   const container = document.getElementById('countdown');
   let startParam = getURLParam('start');
   let eventParam = getURLParam('event');
@@ -173,7 +173,7 @@ function showCountdown() {
   }
   update();
   setInterval(update, 1000);
-}
+}*/
 
 // --- Música de fondo ---
 function playBackgroundMusic() {
