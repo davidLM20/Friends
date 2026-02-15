@@ -73,9 +73,7 @@ function showDedicationText() { //seguidores
     text = `Quiero que sepas algo… te aprecio un montón.
     \n\nAunque estés un poco deschabetada a veces 😜, admiro muchísimo todo lo que has logrado. A tu edad has conseguido cosas que muchos de nosotros ni se nos cruzaba por la cabeza (acabe la u a los 26 xd). Y lo mejor es que muchas veces no te das cuenta de lo capaz que eres.
     \n\nSé que ahora andas en ese punto raro de la vida donde no sabes qué hacer, todo se siente confuso y el futuro parece una pregunta gigante sin respuesta. Y sí, eso pesa… cansa… pone triste.
-    \n\nPero no estas sola
-    \n\nNo tienes que tener la vida resuelta mañana. No tienes que saber exactamente qué hacer ya.
-    \n\nAunque estés un poco deschabetada a veces 😜, admiro un montón todo lo que has logrado. En serio, has conseguido cosas increíbles y a veces ni tú misma te das cuenta de lo capaz que eres.
+    \n\nNo tengo todas las soluciones, pero sí tengo algo claro: estoy aquí. Para escucharte, apoyarte, mandarte memes o acompañarte en tus crisis existenciales.
     \n\nPara eso estamos los amigos, ¿no? Para apoyarnos cuando uno siente que todo se le viene encima.`
     ;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
