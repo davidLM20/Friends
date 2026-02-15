@@ -70,7 +70,14 @@ function getURLParam(name) {
 function showDedicationText() { //seguidores
   let text = getURLParam('text');
   if (!text) {
-    text = `Para el amor de mi vida:\n\nDesde el primer momento supe que eras tú. Tu sonrisa, tu voz, tu forma de ser… todo en ti me hace sentir en casa.\n\nGracias por acompañarme en cada paso, por entenderme incluso en silencio, y por llenar mis días de amor.\n\nTe amo más de lo que las palabras pueden expresar.`;  } else {
+    text = `Quiero que sepas algo… te aprecio un montón.
+    \n\nAunque estés un poco deschabetada a veces 😜, admiro muchísimo todo lo que has logrado. A tu edad has conseguido cosas que muchos de nosotros ni se nos cruzaba por la cabeza (acabe la u a los 26 xd). Y lo mejor es que muchas veces no te das cuenta de lo capaz que eres.
+    \n\nSé que ahora andas en ese punto raro de la vida donde no sabes qué hacer, todo se siente confuso y el futuro parece una pregunta gigante sin respuesta. Y sí, eso pesa… cansa… pone triste.
+    \n\nPero no estas sola
+    \n\nNo tienes que tener la vida resuelta mañana. No tienes que saber exactamente qué hacer ya. Está bien sentirse perdida a veces, eso no borra lo inteligente, fuerte y valiente que eres.
+    \n\nY aunque no pueda arreglar lo que estás viviendo, sí puedo hacer algo mejor: estar. Escucharte. Acompañarte. Aguantar tus crisis existenciales. Mandarte memes cuando estés bajoneada. O simplemente quedarme en silencio contigo si eso es lo que necesitas.
+    \n\nPara eso estamos los amigos, ¿no? Para apoyarnos cuando uno siente que todo se le viene encima.`
+    ;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
